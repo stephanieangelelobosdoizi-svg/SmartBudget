@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <!-- Permite zoom y lectura correcta con lectores de pantalla -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SmartBudget | Finanzas accesibles</title>
+
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+  <!-- CSS compilado -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- Enlace invisible que permite saltar al contenido principal -->
+  <a href="#main-content" class="skip-link">
+    Saltar al contenido principal
+  </a>
+
+  <!-- Encabezado principal -->
+  <header class="header" role="banner">
+    <nav class="navbar navbar-expand-lg navbar-light"
+         aria-label="Navegación principal">
+
+      <a class="navbar-brand header__logo" href="#">
+        SmartBudget
+      </a>
+
+      <button class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#menu"
+              aria-controls="menu"
+              aria-expanded="false"
+              aria-label="Abrir menú de navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ml-auto header__menu">
+          <li class="nav-item"><a class="nav-link" href="#beneficios">Beneficios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <main id="main-content" role="main">
+
+    <!-- Sección Hero -->
+    <section class="hero text-center"
+             aria-labelledby="hero-title">
+
+      <div class="container">
+        <h1 id="hero-title" class="hero__title">
+          Controla tus finanzas de forma simple y accesible
+        </h1>
+
+        <p class="hero__text">
+          Aplicación web diseñada para ser utilizada por todas las personas,
+          incluyendo usuarios de lectores de pantalla.
+        </p>
+
+        <a href="#beneficios"
+           class="btn btn-primary hero__button"
+           aria-label="Ir a la sección de beneficios">
+          Ver beneficios
+        </a>
+      </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section id="beneficios"
+             class="features container my-5"
+             aria-labelledby="features-title">
+
+      <h2 id="features-title" class="text-center mb-4">
+        Beneficios principales
+      </h2>
+
+      <div class="row">
+
+        <div class="col-md-4">
+          <article class="card features__card" tabindex="0">
+            <div class="card-body">
+              <h3 class="card-title">Control total</h3>
+              <p class="card-text">
+                Visualiza ingresos y gastos con claridad.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-4">
+          <article class="card features__card" tabindex="0">
+            <div class="card-body">
+              <h3 class="card-title">Fácil de usar</h3>
+              <p class="card-text">
+                Interfaz simple, clara y fácil de comprender.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-4">
+          <article class="card features__card" tabindex="0">
+            <div class="card-body">
+              <h3 class="card-title">Accesible</h3>
+              <p class="card-text">
+                Compatible con lectores de pantalla y navegación por teclado.
+              </p>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="footer text-center" role="contentinfo">
+    <p>© 2026 SmartBudget</p>
+  </footer>
+
+  <!-- JS Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

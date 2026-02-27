@@ -1,0 +1,7 @@
+.features__card {
+  margin-bottom: 1.5rem;
+
+  &:focus {
+    @include focus-visible;
+  }
+}
